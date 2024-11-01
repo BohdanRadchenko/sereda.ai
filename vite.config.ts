@@ -8,7 +8,7 @@ export default defineConfig({
 	server: {
 		port: 5100
 	},
-	base: "/sereda.ai/",
+	base: "/sereda.ai",
 	plugins: [
 		react(),
 		tsconfigPaths(),
