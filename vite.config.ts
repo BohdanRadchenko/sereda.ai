@@ -8,7 +8,8 @@ export default defineConfig({
 	server: {
 		port: 5100
 	},
-	base: "bohdanradchenko.github.io/sereda.ai",
+	// base: "bohdanradchenko.github.io/sereda.ai",
+	base: "BohdanRadchenko",
 	plugins: [
 		react(),
 		tsconfigPaths(),
