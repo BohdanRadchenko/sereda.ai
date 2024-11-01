@@ -10,7 +10,7 @@ export default defineConfig({
 	},
 	// base: "bohdanradchenko.github.io/sereda.ai",
 	// base: "/sereda.ai",
-	base: "./sereda.ai/",
+	base: "/sereda.ai/",
 	plugins: [
 		react(),
 		tsconfigPaths(),
