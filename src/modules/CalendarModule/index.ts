@@ -1,0 +1,1 @@
+export { CalendarModule, CalendarModule as default } from './CalendarModule.tsx';
