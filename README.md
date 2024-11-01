@@ -9,6 +9,7 @@
 
 ## Pages
 
+[DO droplet](http://134.209.246.53)
 [gh-pages](https://bohdanradchenko.github.io/sereda.ai/)
 
 ## libs
