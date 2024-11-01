@@ -21,24 +21,8 @@ export const useCreateOrUpdateCalendarEvent = (options: IUseCreateOrUpdateCalend
 		onError: (error) => {
 			alert(error);
 		},
-		// onSuccess: (data,) => {
-		// 	queryClient.setQueryData(
-		// 		[ GET_EVENTS_QUERY_KEY ],
-		// 		(oldData: IEvent[]) => {
-		// 			const newData = !data.id
-		// 				? [ ...oldData, data ]
-		// 				: oldData.map(d => {
-		// 					if (d.id !== data.id) return d;
-		// 					return {
-		// 						...d,
-		// 						...data,
-		// 					};
-		// 				});
-		// 			return newData.sort((a, b) => a.datetime - b.datetime);
-		// 		});
-		// 	onSuccess?.();
-		// }
 		onSuccess: () => {
+			// TODO: check queryClient.setQueryData
 			onSuccess?.();
 			queryClient.invalidateQueries({
 				queryKey: [ GET_EVENTS_QUERY_KEY ],

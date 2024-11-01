@@ -64,9 +64,10 @@ export const CalendarEventDialogForm: FC<ICalendarEventDialogFormProps> = (props
 	const onSubmit = useCallback(({ time, ...data }: IFormFields) => {
 		onCreateOrUpdate({
 			...data,
+			id: currentEvent?.id,
 			datetime: new Date(currentEvent?.datetime || Date.now()).setHours(time || 0, 0, 0),
 		});
-	}, [ currentEvent?.datetime, onCreateOrUpdate ]);
+	}, [ currentEvent?.datetime, currentEvent?.id, onCreateOrUpdate ]);
 
 	const handleCancel = useCallback(() => {
 		if (!isDirty) return onClose?.();
