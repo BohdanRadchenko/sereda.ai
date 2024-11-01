@@ -9,7 +9,7 @@ export default defineConfig({
 		port: 5100
 	},
 	// base: "bohdanradchenko.github.io/sereda.ai",
-	base: "BohdanRadchenko",
+	base: "/sereda.ai",
 	plugins: [
 		react(),
 		tsconfigPaths(),
