@@ -31,7 +31,7 @@
     ├── ...
     ├── src                   # Source files
     │   ├── api               # api services and mock db
-    │   ├── assets            # assets with icons svg
+    │   ├── assets            # assets | icons *.svg
     │   ├── components        # 
     │   ├── constants         # 
     │   ├── context           # 
