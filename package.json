@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "author": "Bohdan Radchenko <radchenkobs@gmail.com>",
-  "homepage": "bohdanradchenko.github.io/sereda.ai",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

@@ -16,3 +16,7 @@ export default defineConfig({
 		svgr(),
 	],
 });
+
+/**
+ * "homepage": "bohdanradchenko.github.io/sereda.ai",
+ * */
