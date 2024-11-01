@@ -1,5 +1,5 @@
 import { lazy } from 'react';
-import { createHashRouter, Navigate, Outlet, RouteObject } from 'react-router-dom';
+import { createBrowserRouter, Navigate, Outlet, RouteObject } from 'react-router-dom';
 
 import {
 	CALENDAR_ROUTE,
@@ -68,5 +68,5 @@ export const routes: RouteObject[] = [
 	}
 ];
 
-// export default createBrowserRouter(routes);
-export default createHashRouter(routes);
+export default createBrowserRouter(routes);
+// export default createHashRouter(routes);
