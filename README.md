@@ -5,6 +5,11 @@
 - [Libs](#libs)
 - [File structure](#file-structure)
 - [Run](#run)
+- [Pages](#pages)
+
+## Pages
+
+[gh-pages](https://bohdanradchenko.github.io/sereda.ai/)
 
 ## libs
 
