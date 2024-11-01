@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 .env
-connect.sh
+/connect.sh
