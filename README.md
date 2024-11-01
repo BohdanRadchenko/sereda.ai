@@ -30,7 +30,7 @@
     .
     ├── ...
     ├── src                   # Source files
-    │   ├── api               # mock services
+    │   ├── api               # api services and mock db
     │   ├── assets            # assets with icons svg
     │   ├── components        # 
     │   ├── constants         # 
