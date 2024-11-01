@@ -8,8 +8,6 @@ export default defineConfig({
 	server: {
 		port: 5100
 	},
-	// base: "bohdanradchenko.github.io/sereda.ai",
-	// base: "/sereda.ai",
 	base: "/sereda.ai/",
 	plugins: [
 		react(),
@@ -17,7 +15,3 @@ export default defineConfig({
 		svgr(),
 	],
 });
-
-/**
- * "homepage": "bohdanradchenko.github.io/sereda.ai",
- * */
